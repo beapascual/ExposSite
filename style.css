@@ -1,0 +1,136 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Georgia", serif;
+}
+
+h1{
+	font-size: 11vw;
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: "Times", serif;
+}
+h2{
+	font-size: 5vw;
+	margin-left: 2vw;
+}
+h3{
+	font-size: 4vw;
+	margin: 0px;
+}
+h4{
+	font-size: 3vw;
+	margin: 0px;
+}
+.heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("header.jpg");
+	height: 30vh;
+	background-size: cover;
+	background-position: center;
+	margin: 0px;
+
+}
+#homepage .heading{
+	height: 65vh;
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	background-color: dimgray;
+	justify-content: center;
+	justify-content: space-around;
+	padding: 10px;
+}
+
+.description{
+	background-color: lightgray;
+	box-shadow: 5px 5px 5px black;
+	margin: 5vh;
+	padding: 2em;
+	border: 1px solid black;
+	border-radius: 1em;
+}
+.words{
+	display: flex;
+	flex-direction: column;
+	gap: 2vh;
+}
+.profile{
+	background-color: lightgray;
+	box-shadow: 5px 5px 5px black;
+	padding: 2em;
+	border: 1px solid black;
+	border-radius: 1em;
+	display: flex;
+	flex-direction: row;
+}
+.profile:hover{
+	transform: translateY(20px);
+}
+.profileContainer{
+	display: flex;
+	flex-direction: column;
+	gap: 15vh;
+	margin: 10vw;
+	margin-top: 0;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 2.5vw;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: black;
+}
+p{
+	font-size: 2vw;
+	margin: 0px;
+}
+img{
+	aspect-ratio: 3/4;
+	object-fit: cover;
+	max-width: 100%;
+	width: 20vw;
+	border: 1px solid black;
+	border-radius: 1em;
+}
+.buttonContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 10vh;
+}
+button{
+	border: 3px solid black;
+	padding: 25px;
+	font-size: 2vw;
+	border-radius: 1em;
+	font-family: "Georgia", serif;
+	font-weight: bolder;
+
+}
+button:hover{
+	background-color: dimgray;
+	cursor: pointer;
+}
+#page2 h2{
+	text-align: center;
+	border: 2px solid black;
+	margin: 10vw;
+	padding: 10vw;
+}
+#page2 .description{
+	margin-top: 0px;
+}
